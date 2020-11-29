@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none;}
+.res_wrap{
+    margin: 0 40px;
+    background-image: url(../../img/cooking_bg.jpg);
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+.res_content{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.res_banner{
+    height: 430px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../../img/res_banner.jpg);
+}
+.res_sec{
+    max-width: 800px;
+    /* padding: 0 30px; */
+    position: relative;
+    margin: 0 auto;
+    /* height: 826px; */
+}
+.res_sec_wrap{
+    width: 800px;
+    /* height: 826px; */
+    position: relative;
+    margin-top: -100px;
+}
+.res_item{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 253px;
+    display: grid;
+}
+.res_item2{
+    height: 338px;
+    width: 253px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.res_more{
+    cursor: pointer;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    line-height: 31px;
+    background-color: #79746e;
+    color: #fff;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-top: 30px;
+    margin-left: 50%;
+}
